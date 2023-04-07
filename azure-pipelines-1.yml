@@ -36,5 +36,4 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: 'class-library-projects-packages'
-    arguments: '--source "https://dev.azure.com/COMP367/ClassLibraryProjects/_artifacts/feed/class-library-projects-packages" --api-key $(System.AccessToken)'
+    publishVstsFeed: '4f05d0b7-c513-4933-9dff-30a5862ebd8a/e5de365e-84c6-478a-b058-933dbb5fe34c'
