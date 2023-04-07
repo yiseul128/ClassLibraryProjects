@@ -31,7 +31,13 @@ steps:
     command: 'pack'
     packagesToPack: '**/*.csproj'
 
-- task: NuGetCommand@2
-  displayName: 'Push the NuGet package'
+# - task: NuGetCommand@2
+#   displayName: 'Push the NuGet package'
+#   inputs:
+#     command: 'push'
+
+- task: DotNetCoreCLI@2
   inputs:
     command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+    nuGetFeedType: 'internal'
