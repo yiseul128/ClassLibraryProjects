@@ -1,0 +1,12 @@
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\bin\Debug\net6.0\StringLibrary.deps.json
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\bin\Debug\net6.0\StringLibrary.dll
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\bin\Debug\net6.0\StringLibrary.pdb
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\obj\Debug\net6.0\StringLibrary.csproj.AssemblyReference.cache
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\obj\Debug\net6.0\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\obj\Debug\net6.0\StringLibrary.AssemblyInfoInputs.cache
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\obj\Debug\net6.0\StringLibrary.AssemblyInfo.cs
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\obj\Debug\net6.0\StringLibrary.csproj.CoreCompileInputs.cache
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\obj\Debug\net6.0\StringLibrary.dll
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\obj\Debug\net6.0\refint\StringLibrary.dll
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\obj\Debug\net6.0\StringLibrary.pdb
+C:\Term005\COMP367\A4\Q1\ClassLibraryProjects\StringLibrary\obj\Debug\net6.0\ref\StringLibrary.dll
