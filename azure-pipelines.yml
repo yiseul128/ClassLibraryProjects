@@ -26,18 +26,10 @@ steps:
 - task: NuGetCommand@2
   displayName: 'Pack the NuGet package'
   inputs:
-    command: 'msbuild -t:pack'
+    command: 'pack'
     packagesToPack: '**/*.csproj'
-    versioningScheme: 'byEnvVar'
-    versionEnvVar: 'MY_PACKAGE_VERSION'
 
 - task: NuGetAuthenticate@0
   displayName: 'Authenticate with Azure Artifacts'
   inputs:
     artifactFeeds: 'class-library-projects-packages'
-
-- task: NuGetCommand@2
-  displayName: 'Push the NuGet package'
-  inputs:
-    command: 'push'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
