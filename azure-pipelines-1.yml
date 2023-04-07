@@ -31,13 +31,10 @@ steps:
     command: 'pack'
     packagesToPack: '**/*.csproj'
 
-# - task: NuGetCommand@2
-#   displayName: 'Push the NuGet package'
-#   inputs:
-#     command: 'push'
-
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     nuGetFeedType: 'internal'
+    publishVstsFeed: 'class-library-projects-packages'
+    arguments: '--source "https://dev.azure.com/COMP367/ClassLibraryProjects/_artifacts/feed/class-library-projects-packages" --api-key $(System.AccessToken)'
