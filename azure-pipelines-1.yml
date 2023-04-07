@@ -12,8 +12,9 @@ variables:
   buildConfiguration: 'Release'
   Major: '1'
   Minor: '0'
+  Rev: '1'
   revision: $[counter(variables['Minor'], 1)] 
-  nugetVersion: '$(Major).$(Minor).$(revision)'
+  nugetVersion: '$(Major).$(Minor).$(Rev)'
 
 steps:
 - task: NuGetToolInstaller@1
