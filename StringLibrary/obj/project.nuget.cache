@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gnpn3ENdCPH3OrCO/jTwZyDceHkmBeXxqOjp0uyxUZPtMw9KpSnt2gQrkb2ZWrT9s3ssM93FN5NVost+4rHTIg==",
+  "dgSpecHash": "kTpFafNEKEUfwTl2KnSW8li+cEvX8NnMjC6RlUDftVNDnZ7Mkuy0DTboYfWlS0jxmwn1DHhLD0Tkq6GHhAyvZQ==",
   "success": true,
-  "projectFilePath": "C:\\Term005\\COMP367\\A4\\Q1\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
+  "projectFilePath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
