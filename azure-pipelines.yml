@@ -23,12 +23,6 @@ steps:
     projects: '**/*.csproj'
     arguments: '--configuration Release'
 
-# - task: NuGetCommand@2
-#   displayName: 'Pack the NuGet package'
-#   inputs:
-#     command: 'pack'
-#     packagesToPack: '**/*.csproj'
-
 - task: DotNetCoreCLI@2
   inputs:
     command: 'pack'
@@ -39,3 +33,8 @@ steps:
   displayName: 'Authenticate with Azure Artifacts'
   inputs:
     artifactFeeds: 'class-library-projects-packages'
+    
+- task: NuGetCommand@2
+  displayName: 'Push the NuGet package'
+  inputs:
+    command: 'push'
