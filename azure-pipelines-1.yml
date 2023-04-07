@@ -33,8 +33,6 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
-    versioningScheme: 'byEnvVar'
-    versionEnvVar: 'nugetVersion'
 
 - task: DotNetCoreCLI@2
   displayName: 'Push'
