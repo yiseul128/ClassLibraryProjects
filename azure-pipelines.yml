@@ -26,7 +26,7 @@ steps:
 - task: NuGetCommand@2
   displayName: 'Pack the NuGet package'
   inputs:
-    command: 'dotnet pack'
+    command: 'msbuild -t:pack'
     packagesToPack: '**/*.csproj'
     versioningScheme: 'byEnvVar'
     versionEnvVar: 'MY_PACKAGE_VERSION'
