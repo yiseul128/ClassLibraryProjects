@@ -31,9 +31,15 @@ steps:
     command: 'pack'
     packagesToPack: '**/*.csproj'
 
+# - task: DotNetCoreCLI@2
+#   inputs:
+#     command: 'push'
+#     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+#     nuGetFeedType: 'internal'
+#     publishVstsFeed: '4f05d0b7-c513-4933-9dff-30a5862ebd8a/e5de365e-84c6-478a-b058-933dbb5fe34c'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: '4f05d0b7-c513-4933-9dff-30a5862ebd8a/e5de365e-84c6-478a-b058-933dbb5fe34c'
+    publishVstsFeed: '4f05d0b7-c513-4933-9dff-30a5862ebd8a/94925e56-ba69-4732-9076-ea726a55afdf'
