@@ -1,11 +1,35 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "StringLibrary/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/StringLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/StringLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StringLibrary/1.0.1": {
+      "sha512": "Xjcf17FJ7J1gyHRooi7twYYbqow2yrNPROqz0R6Vfyoz19zIgzYnbS16Xcf4qC1ypf+tL8BVpQWieGmXheuLpw==",
+      "type": "package",
+      "path": "stringlibrary/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net6.0/StringLibrary.dll",
+        "stringlibrary.1.0.1.nupkg.sha512",
+        "stringlibrary.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "StringLibrary >= 1.0.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Yiseul\\.nuget\\packages\\": {}
@@ -13,11 +37,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
-      "projectName": "StringLibrary",
-      "projectPath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
+      "projectUniqueName": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
+      "projectName": "ShowCase",
+      "projectPath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
       "packagesPath": "C:\\Users\\Yiseul\\.nuget\\packages\\",
-      "outputPath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\StringLibrary\\obj\\",
+      "outputPath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\ShowCase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yiseul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +70,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "StringLibrary": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

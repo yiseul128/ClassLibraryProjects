@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qWy31ZtXCJxeLkN/S9KiEovPrl0cxEESaKhzzRwmOVNncnQLYli3g9ULiIFKQ2wAMtK73HlRHM5X8PtBJ65vWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yiseul\\.nuget\\packages\\stringlibrary\\1.0.1\\stringlibrary.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj": {}
+    "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj": {}
   },
   "projects": {
-    "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj": {
+    "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
-        "projectName": "StringLibrary",
-        "projectPath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
+        "projectUniqueName": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
+        "projectName": "ShowCase",
+        "projectPath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
         "packagesPath": "C:\\Users\\Yiseul\\.nuget\\packages\\",
-        "outputPath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\StringLibrary\\obj\\",
+        "outputPath": "C:\\Term005\\COMP367\\A4\\Q1\\AzureRepo\\ClassLibraryProjects\\ShowCase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yiseul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "StringLibrary": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

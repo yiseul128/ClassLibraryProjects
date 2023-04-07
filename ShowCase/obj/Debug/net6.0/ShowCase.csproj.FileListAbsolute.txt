@@ -1,0 +1,17 @@
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\bin\Debug\net6.0\ShowCase.exe
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\bin\Debug\net6.0\ShowCase.deps.json
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\bin\Debug\net6.0\ShowCase.runtimeconfig.json
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\bin\Debug\net6.0\ShowCase.dll
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\bin\Debug\net6.0\ShowCase.pdb
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\bin\Debug\net6.0\StringLibrary.dll
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ShowCase.csproj.AssemblyReference.cache
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ShowCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ShowCase.AssemblyInfoInputs.cache
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ShowCase.AssemblyInfo.cs
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ShowCase.csproj.CoreCompileInputs.cache
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ShowCase.csproj.CopyComplete
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ShowCase.dll
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\refint\ShowCase.dll
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ShowCase.pdb
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ShowCase.genruntimeconfig.cache
+C:\Term005\COMP367\A4\Q1\AzureRepo\ClassLibraryProjects\ShowCase\obj\Debug\net6.0\ref\ShowCase.dll
