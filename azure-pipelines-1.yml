@@ -33,7 +33,9 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
-    patchVersion: '1'
+    packDirectory: '$(Build.ArtifactStagingDirectory)'
+    versioningScheme: 'byEnvVar'
+    versionEnvVar: 'nugetVersion'
 
 - task: DotNetCoreCLI@2
   displayName: 'Push'
