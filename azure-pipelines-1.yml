@@ -33,7 +33,7 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
-    patchVersion: '$(Build.BuildNumber)'
+    patchVersion: '1'
 
 - task: DotNetCoreCLI@2
   displayName: 'Push'
